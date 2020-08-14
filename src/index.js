@@ -19,7 +19,7 @@ function breed(arr){
  let ul= document.getElementById("dog-breeds"); 
  let sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
-      forArr();
+      forArr
   }
   
     //challenge 3
