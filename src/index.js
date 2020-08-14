@@ -21,10 +21,10 @@ function breed(arr){
   if(sel.value==="a"){
       forArr();
   }
-  }
+  
     //challenge 3
     
-    }
+    
 }
 document.addEventListener("DOMContentLoaded", function(){
         fetch(breedUrl)
