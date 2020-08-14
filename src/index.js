@@ -23,7 +23,7 @@ function breed(arr){
     var text =document.createTextNode(property);
     var li=document.createElement("li");
      ul.appendChild(li).onclick=function(){
-      li.style.color="blue;
+      li.style.color="blue";
       li.appendChild(text);
   }
   }
