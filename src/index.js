@@ -33,9 +33,6 @@ document.addEventListener("DOMContentLoaded", function(){
   .then(json =>breed(json.message));
 });
 
-function selOption(select){
-
-}
 
 function forArr(arr,ul,selVal){
   for (const property in arr) {
