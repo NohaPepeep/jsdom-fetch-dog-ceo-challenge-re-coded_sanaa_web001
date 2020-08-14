@@ -35,7 +35,7 @@ function selOption(select){
 
 }
 
-function forArr(arr){
+function forArr(arr,ul){
   for (const property in arr) {
     let text =document.createTextNode(property);
     let li=document.createElement("li");
