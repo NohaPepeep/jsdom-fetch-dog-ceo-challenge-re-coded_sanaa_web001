@@ -24,6 +24,15 @@ function breed(arr){
   else if(sel.value==="b"){
       forArr(arr,ul,"b")
   }
+  else if(sel.value==="c"){
+      forArr(arr,ul,"c")
+  }
+  else if(sel.value==="d"){
+      forArr(arr,ul,"d")
+  }
+  else if(sel.value==="e"){
+      forArr(arr,ul,"e")
+  }
     //challenge 3
    
 }
