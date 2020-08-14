@@ -32,9 +32,6 @@ document.addEventListener("DOMContentLoaded", function(){
   .then(resp => resp.json())
   .then(json =>breed(json.message));
 });
-let a;
-let b;
-let c;
-let d;
+var sel = document.getElementById('scripts');
 if($0===)
 
