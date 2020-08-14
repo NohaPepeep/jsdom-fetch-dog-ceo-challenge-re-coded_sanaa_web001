@@ -23,8 +23,7 @@ function breed(arr){
   }
   
     //challenge 3
-    
-    
+   
 }
 document.addEventListener("DOMContentLoaded", function(){
         fetch(breedUrl)
@@ -43,4 +42,4 @@ function forArr(){
     li.appendChild(text);
      ul.appendChild(li).onclick=function(){
       li.style.color="blue";
-}
+}}}
