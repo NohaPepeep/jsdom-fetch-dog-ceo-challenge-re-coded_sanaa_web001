@@ -16,10 +16,13 @@ fetch(imgUrl)
 //challenge 2
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 function breed(arr){
- let ul= document.getElementById("dog-breeds");
-  for (const property in arr) {
+ let ul= document.getElementById("dog-breeds");  var sel = document.getElementById('breed-dropdown');
+  if(sel.value==="a"){
+    for (const property in arr) {
     let text =document.createTextNode(property);
     let li=document.createElement("li");
+  }
+  
     //challenge 3
      ul.appendChild(li).onclick=function(){
       li.style.color="blue"
@@ -34,9 +37,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 function selOption(select){
-  var sel = document.getElementById('breed-dropdown');
-  if(sel.value===select){
-    
-  }
+
 }
 
