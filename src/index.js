@@ -30,9 +30,7 @@ function breed(arr){
   else if(sel.value==="d"){
       forArr(arr,ul,"d")
   }
-  else if(sel.value==="e"){
-      forArr(arr,ul,"e")
-  }
+  
     //challenge 3
    
 }
