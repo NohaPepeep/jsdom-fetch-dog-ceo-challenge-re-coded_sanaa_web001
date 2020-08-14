@@ -27,7 +27,7 @@ function breed(arr){
     //challenge 3
    
 }
-document.addEventListener("onclick", function(){
+document.addEventListener("click", function(){
         fetch(breedUrl)
   .then(resp => resp.json())
   .then(json =>breed(json.message));
