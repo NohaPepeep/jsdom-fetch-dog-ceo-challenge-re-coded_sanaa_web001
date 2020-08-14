@@ -35,6 +35,7 @@ document.addEventListener("click", function(){
 
 
 function forArr(arr,ul,selVal){
+  
   for (const property in arr) {
     if(property.charAt(0)==selVal){
     let text =document.createTextNode(property);
