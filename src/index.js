@@ -19,8 +19,8 @@ function breed(arr){
  let ul= document.getElementById("dog-breeds");  var sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
     for (const property in arr) {
-    let text =document.createTextNode(property);
-    let li=document.createElement("li");
+    var text =document.createTextNode(property);
+    var li=document.createElement("li");
   }
   
     //challenge 3
