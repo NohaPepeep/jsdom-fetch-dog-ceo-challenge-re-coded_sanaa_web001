@@ -20,8 +20,8 @@ function breed(arr){
  let sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
     for (const property in arr) {
-    var text =document.createTextNode(property);
-    var li=document.createElement("li");
+    let text =document.createTextNode(property);
+    let li=document.createElement("li");
      ul.appendChild(li).onclick=function(){
       li.style.color="blue";
       li.appendChild(text);
