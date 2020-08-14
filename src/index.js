@@ -16,7 +16,8 @@ fetch(imgUrl)
 //challenge 2
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 function breed(arr){
- let ul= document.getElementById("dog-breeds");  var sel = document.getElementById('breed-dropdown');
+ let ul= document.getElementById("dog-breeds"); 
+ let sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
     for (const property in arr) {
     var text =document.createTextNode(property);
