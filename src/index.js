@@ -19,10 +19,10 @@ function breed(arr){
  let ul= document.getElementById("dog-breeds"); 
  let sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
-      forArr(arr,ul)
+      forArr(arr,ul,"a")
   }
   else if(sel.value==="b"){
-      forArr(arr,ul)
+      forArr(arr,ul,"b")
   }
     //challenge 3
    
@@ -37,11 +37,12 @@ function selOption(select){
 
 }
 
-function forArr(arr,ul){
+function forArr(arr,ul,selVal){
   for (const property in arr) {
+    if(property.charAt(0)==selVal){
     let text =document.createTextNode(property);
     let li=document.createElement("li");
     li.appendChild(text);
      ul.appendChild(li).onclick=function(){
-      li.style.color="blue";
+      li.style.color="blue";}
 }}}
