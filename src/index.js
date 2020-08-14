@@ -21,7 +21,9 @@ function breed(arr){
   if(sel.value==="a"){
       forArr(arr,ul)
   }
-  
+  else if(sel.value==="b"){
+      forArr(arr,ul)
+  }
     //challenge 3
    
 }
