@@ -19,20 +19,12 @@ function breed(arr){
  let ul= document.getElementById("dog-breeds"); 
  let sel = document.getElementById('breed-dropdown');
   if(sel.value==="a"){
-    for (const property in arr) {
-    let text =document.createTextNode(property);
-    let li=document.createElement("li");
-    li.appendChild(text);
-     ul.appendChild(li).onclick=function(){
-      li.style.color="blue";
-      
+      forArr();
   }
   }
     //challenge 3
     
     }
-    
-  
 }
 document.addEventListener("DOMContentLoaded", function(){
         fetch(breedUrl)
@@ -44,3 +36,11 @@ function selOption(select){
 
 }
 
+function forArr(){
+  for (const property in arr) {
+    let text =document.createTextNode(property);
+    let li=document.createElement("li");
+    li.appendChild(text);
+     ul.appendChild(li).onclick=function(){
+      li.style.color="blue";
+}
