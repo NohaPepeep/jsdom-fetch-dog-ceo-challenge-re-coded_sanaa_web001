@@ -22,9 +22,10 @@ function breed(arr){
     for (const property in arr) {
     let text =document.createTextNode(property);
     let li=document.createElement("li");
+    li.appendChild(text);
      ul.appendChild(li).onclick=function(){
       li.style.color="blue";
-      li.appendChild(text);
+      
   }
   }
     //challenge 3
